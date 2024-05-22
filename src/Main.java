@@ -70,7 +70,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Не валидный месяц");
-
         }
+
     }
 }
