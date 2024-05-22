@@ -41,13 +41,13 @@ public class Main {
         int deliveryDays = 1;
 
         if (deliveryDistance < 20) {
-            System.out.println("Потребуется денй: " + deliveryDays);
+            System.out.println("Потребуется дней: " + deliveryDays);
         } else if (deliveryDistance < 60) {
             deliveryDays++;
-            System.out.println("Потребуется денй: " + deliveryDays);
+            System.out.println("Потребуется дней: " + deliveryDays);
         } else if (deliveryDistance <= 100) {
             deliveryDays += 2;
-            System.out.println("Потребуется денй: " + deliveryDays);
+            System.out.println("Потребуется дней: " + deliveryDays);
         } else {
             System.out.println("Доставки нет");
         }
@@ -57,19 +57,20 @@ public class Main {
         int monthNumber = 12;
         switch (monthNumber) {
             case 12, 1, 2:
-                System.out.println("Зима");
+                System.out.println("Это зима");
                 break;
             case 3, 4, 5:
-                System.out.println("Весна");
+                System.out.println("Это весна");
                 break;
             case 6, 7, 8:
-                System.out.println("Лето");
+                System.out.println("Это лето");
                 break;
             case 9, 10, 11:
-                System.out.println("Осень");
+                System.out.println("Это осень");
                 break;
             default:
                 System.out.println("Не валидный месяц");
+
         }
     }
 }
